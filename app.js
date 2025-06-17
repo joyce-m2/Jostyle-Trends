@@ -97,7 +97,7 @@ const BestSellers = () => {
                 <div className="bestseller-row">
                     <div className="bestseller-wrapper">
                         <span className="number-badge">1</span>
-                        <img src="images/7a.jpg" alt="Best Seller 1" loading="lazy" />
+                        <img src="7a.jpg" alt="Best Seller 1" loading="lazy" />
                         <div className="product-info">
                             <p className="product-name">Black Bodycon Dress Full Sleeves</p>
                             <p className="product-price">
@@ -108,7 +108,7 @@ const BestSellers = () => {
                     </div>
                     <div className="bestseller-wrapper">
                         <span className="number-badge">2</span>
-                        <img src="images/8a.jpg" alt="Best Seller 2" loading="lazy" />
+                        <img src="8a.jpg" alt="Best Seller 2" loading="lazy" />
                         <div className="product-info">
                             <p className="product-name">White Men's Formal Suit Set</p>
                             <p className="product-price">
@@ -119,7 +119,7 @@ const BestSellers = () => {
                     </div>
                     <div className="bestseller-wrapper">
                         <span className="number-badge">3</span>
-                        <img src="images/9a.jpg" alt="Best Seller 3" loading="lazy" />
+                        <img src="9a.jpg" alt="Best Seller 3" loading="lazy" />
                         <div className="product-info">
                             <p className="product-name">Men's Casual White Co-ord Set</p>
                             <p className="product-price">
@@ -132,7 +132,7 @@ const BestSellers = () => {
                 <div className="bestseller-row">
                     <div className="bestseller-wrapper">
                         <span className="number-badge">4</span>
-                        <img src="images/11a.jpg" alt="Best Seller 4" loading="lazy" />
+                        <img src="11a.jpg" alt="Best Seller 4" loading="lazy" />
                         <div className="product-info">
                             <p className="product-name">Distressed Gray Chained Cargo Pants</p>
                             <p className="product-price">
@@ -143,7 +143,7 @@ const BestSellers = () => {
                     </div>
                     <div className="bestseller-wrapper">
                         <span className="number-badge">5</span>
-                        <img src="images/10a.jpg" alt="Best Seller 5" loading="lazy" />
+                        <img src="10a.jpg" alt="Best Seller 5" loading="lazy" />
                         <div className="product-info">
                             <p className="product-name">Casual Women's Sneakers</p>
                             <p className="product-price">
@@ -154,7 +154,7 @@ const BestSellers = () => {
                     </div>
                     <div className="bestseller-wrapper">
                         <span className="number-badge">6</span>
-                        <img src="images/12a.jpg" alt="Best Seller 6" loading="lazy" />
+                        <img src="12a.jpg" alt="Best Seller 6" loading="lazy" />
                         <div className="product-info">
                             <p className="product-name">Glossy Green Bodycon Dress for Women</p>
                             <p className="product-price">
@@ -175,19 +175,19 @@ const CustomerReviews = () => {
 
     const reviews = [
         {
-            image: "images/review1.jpg",
+            image: "review1.jpg",
             name: "Alexa P.",
             rating: 5,
             text: "Amazing products! I loved the quality and the designs. Will definitely shop again here 🥰."
         },
         {
-            image: "images/review2.jpg",
+            image: "review2.jpg",
             name: "Abhay K.",
             rating: 4,
             text: "The product quality is top notch, and they have fast delivery. Highly recommend 👍!"
         },
         {
-            image: "images/review3.jpg",
+            image: "review3.jpg",
             name: "Rachel S.",
             rating: 5,
             text: "The winter collection is just perfect. Have been ordering from here for a long time 😍."
@@ -269,9 +269,9 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div className="about-us-images">
-                    <img src="images/about1.jpg" alt="About Us 1" className={`about-us-img ${currentIndex === 0 ? 'active' : ''}`} />
-                    <img src="images/about2.jpg" alt="About Us 2" className={`about-us-img ${currentIndex === 1 ? 'active' : ''}`} />
-                    <img src="images/about3.jpg" alt="About Us 3" className={`about-us-img ${currentIndex === 2 ? 'active' : ''}`} />
+                    <img src="about1.jpg" alt="About Us 1" className={`about-us-img ${currentIndex === 0 ? 'active' : ''}`} />
+                    <img src="about2.jpg" alt="About Us 2" className={`about-us-img ${currentIndex === 1 ? 'active' : ''}`} />
+                    <img src="about3.jpg" alt="About Us 3" className={`about-us-img ${currentIndex === 2 ? 'active' : ''}`} />
                 </div>
             </div>
         </div>
